@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.searchtype{
+    padding: 20px 100px;
+}
+
+.searchMovie{
+    border-radius: 7px;
+    color: aliceblue;
+    background: skyblue;
+    padding: 10px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-movie{
+    box-shadow: 1px 1px 4px  black;
+    padding: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card-movie button{
+    background: skyblue;
+    border-radius: 5px;
+    padding: 7px;
+    border-color: skyblue;
+    text-align: center;
+}
+
+.card-movie img{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+}
