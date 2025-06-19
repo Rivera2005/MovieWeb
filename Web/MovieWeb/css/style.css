@@ -1,50 +1,91 @@
-header{
+*{
+    background: #0B0B0B;
+}
+
+header {
     text-align: center;
     margin-bottom: 50px;
     padding: 5px;
 }
 
-.searchtype{
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #E6E6E6;
+}
+
+.searchtype {
     padding: 20px 100px;
 }
 
-.searchMovie{
+.search{
+    background: skyblue;
+}
+
+.searchMovie {
     border-radius: 7px;
     color: aliceblue;
     background: skyblue;
-    padding: 10px;
+    padding: 25px;
     text-align: left;
     padding-left: 30px;
 }
 
-.wrapper{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
-    justify-items: center;
-    align-items: center;
+.searchMovie p{
+    background: skyblue;
 }
 
-.card-movie{
-    box-shadow: 1px 1px 4px  black;
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card-movie {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 4px white;
+    color: #A0A0A0;
     padding: 10px;
     padding-bottom: 20px;
     text-align: center;
     border-radius: 10px;
+    height: 100%;
 }
 
-.card-movie button{
-    background: skyblue;
+.card-movie button {
+    background: #C62828;
     border-radius: 5px;
-    padding: 7px;
-    border-color: skyblue;
+    padding: 10px;
+    border-color: #C62828;
+    box-shadow: 1px 1px 4px white;
     text-align: center;
+    margin-top: auto;
+    width: 200px;
+    align-self: center;
+    color: #6F57F5;
+
 }
 
-.card-movie img{
+.card-movie img {
     width: 300px;
     height: 300px;
+    object-fit: cover;
     padding: 10px;
+    border-radius: 10%;
+    align-self: center;
+}
 
+.card-movie p {
+    text-align: center
+}
+
+.scoreMovie{
+    color: #FFD700;
 }
