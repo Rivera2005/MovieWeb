@@ -114,6 +114,11 @@ header{
     background: skyblue;
 }
 
+.structure{
+    display: flex;
+    flex-direction: column;
+}
+
 .categoria{
     margin-left: 50px;
 }
@@ -121,6 +126,7 @@ header{
 .wrapper {
     display: flex;
     margin-left: 50px;
+    margin-bottom: 30px;
 }
 
 .card-movie {
@@ -135,7 +141,13 @@ header{
     background: #1a1a1a;
     margin-right: 25px;
     padding: 10px;
+    transition: transform 0.3s ease;
 }
+
+.card-movie:hover{
+    transform: scale(1.1);
+}
+
 
 .card-movie h4 {
   margin-top: 10px;
